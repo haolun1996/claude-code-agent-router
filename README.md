@@ -4,13 +4,9 @@ A **Claude Code plugin** that lets you approve how a multi-part prompt is split 
 
 Type a prompt with numbered items. Instead of starting right away, Claude proposes which subagent takes each item. You keep the plan or change any row, press **g**, and the agents run in parallel while a band above the prompt tracks each one.
 
-```
-Routing · 3 items · waiting for your go  [ Go ]  [ Dismiss ]
- 1: → [file-scout · haiku    ▾]  explain what readReply does
- 2: → [line-counter · haiku  ▾]  count lines in hooks files
- 3: → [main (Claude itself)  ▾]  one-sentence explanation
-   1–3 pick a row, same digit again to change it · g to go · or reply "go"
-```
+![The routing band above the Claude Code prompt, waiting for approval: three rows, each with a subagent picker](docs/routing-band.png)
+
+Once you approve, the same band tracks each part:
 
 ```
 Routing · 3 items · 2 running · 1 done
