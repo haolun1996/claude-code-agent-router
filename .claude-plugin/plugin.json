@@ -1,0 +1,10 @@
+{
+  "name": "agent-router",
+  "version": "0.1.0",
+  "description": "Approve how a numbered prompt is split across your subagents before work starts, then watch each part run. Also /roster and a delegation hint.",
+  "author": { "name": "haolun1996" },
+  "homepage": "https://github.com/haolun1996/claude-code-agent-router",
+  "repository": "https://github.com/haolun1996/claude-code-agent-router",
+  "keywords": ["claude-code", "subagents", "routing", "delegation"],
+  "types": "./types/index.d.ts"
+}

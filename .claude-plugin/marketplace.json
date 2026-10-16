@@ -1,0 +1,12 @@
+{
+  "name": "claude-code-agent-router",
+  "owner": { "name": "haolun1996" },
+  "description": "Claude Code plugins for routing work across subagents.",
+  "plugins": [
+    {
+      "name": "agent-router",
+      "source": "./",
+      "description": "Approve how a numbered prompt is split across your subagents, then watch each part run."
+    }
+  ]
+}
